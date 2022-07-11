@@ -71,11 +71,19 @@
         Submit
       </button>
     </form>
+
+   
   </div>
 </template>
 
 <script>
-export default {};
+import WorkspaceItems from '../components/WorkspaceItems.vue';
+
+export default {
+    components:{
+        WorkspaceItems
+    }
+};
 </script>
 
 <style lang="scss" scoped></style>

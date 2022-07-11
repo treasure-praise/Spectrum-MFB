@@ -122,7 +122,15 @@
 
 <script>
 import Table from "../components/Table.vue";
-import SearchBar from "../components/SearchBar.vue";
+
+
+import SearchBar from '../components/SearchBar.vue';
+
+export default {
+    components: {
+        SearchBar
+    },
+};
     
 </script>
 

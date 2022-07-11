@@ -1,7 +1,7 @@
 <template>
   <div class="bg-[#fafafa]  w-4/5 h-auto ">
     <Navbar />
-    <div class=" ml-20 mr-12 h-full">
+    <div class=" ml-20 mr-12 h-auto">
       <!-- <h1>Dashboard/~</h1> -->
       <h1>Profile/~</h1>
       <!-- <div>
@@ -46,7 +46,8 @@
         <!-- <Profile/> -->
         <!-- <ProfileEdit/> -->
         <!-- <UserManagement/> -->
-        <UserManagementEdit/>
+        <!-- <UserManagementEdit/> -->
+        <WorkspaceView/>
    </div>
   </div>
 </template>
@@ -58,6 +59,7 @@ import Profile from "../pages/Profile.vue";
 import ProfileEdit from "../pages/ProfileEdit.vue";
 import UserManagement from "../pages/UserManagement.vue";
 import UserManagementEdit from "../pages/UserManagementEdit.vue";
+import WorkspaceView from "../pages/WorkspaceView.vue";
 </script>
 
 <style lang="scss" scoped></style>
