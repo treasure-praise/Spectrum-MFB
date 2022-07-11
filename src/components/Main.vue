@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-[#fafafa]  w-4/5 h-auto">
+  <div class="bg-[#fafafa]  w-4/5 h-auto ">
     <Navbar />
-    <div class=" ml-20 mr-12 h-auto">
+    <div class=" ml-20 mr-12 h-full">
       <!-- <h1>Dashboard/~</h1> -->
       <h1>Profile/~</h1>
       <!-- <div>
@@ -43,8 +43,10 @@
           <Table />
         </div>
       </div> -->
-        <Profile/>
+        <!-- <Profile/> -->
         <!-- <ProfileEdit/> -->
+        <!-- <UserManagement/> -->
+        <UserManagementEdit/>
    </div>
   </div>
 </template>
@@ -54,6 +56,8 @@ import Navbar from "./Navbar.vue";
 import Table from "./Table.vue";
 import Profile from "../pages/Profile.vue";
 import ProfileEdit from "../pages/ProfileEdit.vue";
+import UserManagement from "../pages/UserManagement.vue";
+import UserManagementEdit from "../pages/UserManagementEdit.vue";
 </script>
 
 <style lang="scss" scoped></style>

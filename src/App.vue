@@ -8,7 +8,7 @@ import Dashboard from './pages/Dashboard.vue';
 </script>
 
 <template>
-  <div class="flex">
+  <div class="flex h-auto">
     <!-- <Login/> -->
     <Dashboard/>
     <!-- <SideBar class="w-96 h-screen" /> -->
@@ -25,5 +25,6 @@ import Dashboard from './pages/Dashboard.vue';
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
   color: #2c3e50;
+  /* height: fit-content; */
   }
 </style>
