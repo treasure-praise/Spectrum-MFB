@@ -3,15 +3,16 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
 import SideBar from './components/SideBar.vue';
-import Dashboard from './components/Dashboard.vue';
 import Login from './pages/Login.vue';
+import Dashboard from './pages/Dashboard.vue';
 </script>
 
 <template>
   <div class="flex">
     <!-- <Login/> -->
-    <SideBar class="w-96 h-screen" />
-  <Dashboard class= "bg-[#fafafa] w-full"/>
+    <Dashboard/>
+    <!-- <SideBar class="w-96 h-screen" /> -->
+  
   </div>
   
 </template>
@@ -22,7 +23,7 @@ import Login from './pages/Login.vue';
   /* font-family: Avenir, Helvetica, Arial, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
   }
 </style>
