@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-[#fafafa]  w-4/5 h-fit ">
+  <div class="bg-[#fafafa]  w-4/5 h-full ">
     <Navbar />
     <div class=" ml-20 mr-12 h-auto">
-      <!-- <h1>Dashboard/~</h1> -->
-      <h1>Profile/~</h1>
-      <!-- <div>
-        <h1>Overview</h1>
-        <div class="flex gap-12">
+       <h1 class="mb-9">Dashboard/~</h1> 
+      <!-- <h1>Profile/~</h1> -->
+     <div>
+        <h1 class="mb-6">Overview</h1>
+        <div class="flex gap-12 mb-12">
           <div
             class="w-2/3 rounded-lg px-3 py-8 flex items-center border bg-[#F9EBBF] justify-center gap-6"
           >
@@ -33,8 +33,8 @@
             <span class="text-5xl font-bold">2</span>
           </div>
         </div>
-      </div> -->
-      <!-- <div>
+      </div> 
+      <div> 
         <div class="flex mb-10">
           <h2 class="font-bold">All Transfers</h2>
           <span>Sort: All</span>
@@ -42,7 +42,7 @@
         <div class="rounded-lg h-auto bg-white border-red">
           <Table />
         </div>
-      </div> -->
+      </div>
         <!-- <Profile/> -->
         <!-- <ProfileEdit/> -->
         <!-- <UserManagement/> -->
@@ -56,7 +56,7 @@
         <!-- <TransferRequestSummary/> -->
         <!-- <SingleTransferRequest/> -->
         <!-- <BatchTransferRequest/> -->
-        <StatusModal/>
+        <!-- <StatusModal/> -->
    </div>
   </div>
 </template>
