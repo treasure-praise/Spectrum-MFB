@@ -52,7 +52,11 @@
         <!-- <BatchTransactionApproval/> -->
         <!-- <TableComponent/> -->
         <!-- <TransferRequestSent/> -->
-        <TransferRequestSummary/>
+        <!-- <BatchTransferRequestSummary/> -->
+        <!-- <TransferRequestSummary/> -->
+        <!-- <SingleTransferRequest/> -->
+        <!-- <BatchTransferRequest/> -->
+        <StatusModal/>
    </div>
   </div>
 </template>
@@ -69,8 +73,11 @@ import SingleTransactionApproval from "../Modals/SingleTransactionApproval.vue";
 import BatchTransactionApproval from "../Modals/BatchTransactionApproval.vue";
 import TableComponent from "./TableComponent.vue";
 import TransferRequestSent from "../Modals/TransferRequestSent.vue";
-import TransferRequestSent1 from "../Modals/TransferRequestSent.vue";
-import TransferRequestSummary from "../Modals/TransferRequestSummary.vue";
+import SingleTransferRequest from "../pages/SingleTransferRequest.vue";
+import BatchTransferRequest from "../pages/BatchTransferRequest.vue";
+import SingleTransferRequestSummary from "../Modals/SingleTransferRequestSummary.vue";
+import BatchTransferRequestSummary from "../Modals/BatchTransferRequestSummary.vue";
+import StatusModal from "../Modals/StatusModal.vue";
 </script>
 
 <style lang="scss" scoped></style>

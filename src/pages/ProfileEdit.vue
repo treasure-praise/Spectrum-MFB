@@ -9,7 +9,7 @@
     </div>
     <div class="flex gap-12 h-fit w-1/2">
       <div class="">
-        <form class="h-80" action="">
+        <form class="h-auto" action="">
           <div class="flex flex-col w-full align-top mb-10">
             <label class="text-xs text-left mb-2 text-[#6C82A3]" for="Name">
               Name
