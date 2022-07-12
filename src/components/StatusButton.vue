@@ -1,11 +1,21 @@
 <template>
-    <button class="bg-[#FEDB6E] rounded py-1 px-2 text-white text-sm  text-center">
-        {{msg}}
+    <button class="bg-[#ED3237] rounded py-2 px-4 text-white text-sm  text-center">
+        {{text}}
     </button>
 </template>
 
 <script>
-    
+    export default{
+        name: "StatusButton",
+        props:{
+            text:{
+                text:String,
+            },
+            color:{
+                text: String
+            }
+        }
+    }
 </script>
 
 <style lang="scss" scoped>

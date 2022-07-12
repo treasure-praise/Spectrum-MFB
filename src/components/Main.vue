@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#fafafa]  w-4/5 h-auto ">
+  <div class="bg-[#fafafa]  w-4/5 h-fit ">
     <Navbar />
     <div class=" ml-20 mr-12 h-auto">
       <!-- <h1>Dashboard/~</h1> -->
@@ -47,7 +47,12 @@
         <!-- <ProfileEdit/> -->
         <!-- <UserManagement/> -->
         <!-- <UserManagementEdit/> -->
-        <WorkspaceView/>
+        <!-- <WorkspaceView/> -->
+        <!-- <SingleTransactionApproval/> -->
+        <!-- <BatchTransactionApproval/> -->
+        <!-- <TableComponent/> -->
+        <!-- <TransferRequestSent/> -->
+        <TransferRequestSummary/>
    </div>
   </div>
 </template>
@@ -60,6 +65,12 @@ import ProfileEdit from "../pages/ProfileEdit.vue";
 import UserManagement from "../pages/UserManagement.vue";
 import UserManagementEdit from "../pages/UserManagementEdit.vue";
 import WorkspaceView from "../pages/WorkspaceView.vue";
+import SingleTransactionApproval from "../Modals/SingleTransactionApproval.vue";
+import BatchTransactionApproval from "../Modals/BatchTransactionApproval.vue";
+import TableComponent from "./TableComponent.vue";
+import TransferRequestSent from "../Modals/TransferRequestSent.vue";
+import TransferRequestSent1 from "../Modals/TransferRequestSent.vue";
+import TransferRequestSummary from "../Modals/TransferRequestSummary.vue";
 </script>
 
 <style lang="scss" scoped></style>

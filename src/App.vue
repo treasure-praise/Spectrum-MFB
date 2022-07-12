@@ -1,14 +1,14 @@
 <script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
+
 import SideBar from './components/SideBar.vue';
 import Login from './pages/Login.vue';
 import Dashboard from './pages/Dashboard.vue';
 </script>
 
 <template>
-  <div class="flex h-auto">
+  <div class="flex ">
     <!-- <Login/> -->
     <Dashboard/>
     <!-- <SideBar class="w-96 h-screen" /> -->

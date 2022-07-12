@@ -77,11 +77,11 @@
 </template>
 
 <script>
-import WorkspaceItems from '../components/WorkspaceItems.vue';
+
 
 export default {
     components:{
-        WorkspaceItems
+      
     }
 };
 </script>
