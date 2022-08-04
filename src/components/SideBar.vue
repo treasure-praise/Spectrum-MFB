@@ -1,5 +1,5 @@
 <template>
-    <div class="w-1/5  text-center h-screen">
+    <div class=" hidden border  text-center h-screen bg-white overflow-y-auto overflow-hidden relative  md:block ">
         <div class="pl-9 pt-12 pb-12">
             <img alt="Spectrum MFB Logo" src="../assets/logo.svg" />
         </div>
@@ -52,16 +52,18 @@
                 
             </div>
         </div>
+     
     </div>
 </template>
 
-<script setup>
+<script >
 import DashboardIcon from "../assets/icons/element-4.svg"
 import TransferRequestIcon from "../assets/icons/note.svg"
 import UserManagementIcon from "../assets/icons/users.svg"
 import ReportIcon from "../assets/icons/document-text.svg"
 import MessageIcon from "../assets/icons/message.svg"
 import SettingsIcon from "../assets/icons/setting-2.svg"
+
 
 const menu =[
     {name:"Dashboard", icon:DashboardIcon},
@@ -71,6 +73,8 @@ const menu =[
     {name:'Message', icon: MessageIcon},
     {name:'Settings', icon: SettingsIcon}
 ]
+
+
 
 </script>
 

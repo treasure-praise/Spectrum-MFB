@@ -1,5 +1,6 @@
 <template>
-    <table class="table-fixed w-full">
+<div class="relative break-words   block w-full overflow-x-auto">
+    <table class="table-fixed  w-full">
         <thead class="border-b">
             <tr >
                 <th class="px-4 py-2">Account Details</th>
@@ -81,6 +82,8 @@
             </tr>
         </tbody>
     </table>
+</div>
+    
 </template>
 
 <script>

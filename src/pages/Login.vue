@@ -1,5 +1,5 @@
 <template>
-  <div class="flex border h-screen ">
+  <div class="flex border h-screen w-full">
     <main class="w-1/2 ">
       <div class="w-2/3 mx-auto place-content-center my-24">
         <img src="../assets/logo.svg" alt="">

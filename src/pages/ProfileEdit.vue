@@ -1,21 +1,21 @@
 <template>
-  <div class="flex w-full items-start border-b mb-10">
-    <div class="flex flex-col mt-4 w-1/2">
+  <div class="md:flex w-full h-full items-start border-b mb-10mx-4 md:mx-0">
+    <div class="flex flex-col mt-4 md:w-1/2 mx-4 md:mx-0 ">
       <h2 class="text-[#0A2E65] font-bold text-lg mb-1">Profile Information</h2>
       <p class="text-[#6C82A3] text-sm">
         Update your account profile <br />
         information andmail address
       </p>
     </div>
-    <div class="flex gap-12 h-fit w-1/2">
+    <div class="md:flex h-fit md:w-1/2 mx-4 md:mx-0">
       <div class="">
-        <form class="h-auto" action="">
+        <form class="h-auto w-full" action="">
           <div class="flex flex-col w-full align-top mb-10">
             <label class="text-xs text-left mb-2 text-[#6C82A3]" for="Name">
               Name
             </label>
             <input
-              class="bg-[#F5F6FA] h-16 w-80 px-8 text-[#0A2E65] border rounded-md"
+              class="bg-[#F5F6FA] h-16 md:w-80 w-full px-8 text-[#0A2E65] border rounded-md"
               type="text"
               placeholder="lorem ispum"
             />
@@ -25,7 +25,7 @@
               Email
             </label>
             <input
-              class="bg-[#F5F6FA] text-[#0A2E65] border rounded-md h-16 w-80 px-8"
+              class="bg-[#F5F6FA] text-[#0A2E65] border rounded-md h-16 md:w-80 w-full px-8"
               type="email"
               placeholder="loremispum@gmail.com"
             />
@@ -47,23 +47,24 @@
       </div>
     </div>
   </div>
-  <div class="flex w-full items-start h-full border-b">
-    <div class="flex flex-col mt-4 w-1/2">
+
+  <div class="md:flex w-full items-start h-full border-b mx-4 md:mx-0">
+    <div class="flex flex-col mt-4 md:w-1/2 mx-4 md:mx-0">
       <h2 class="text-[#0A2E65] font-bold text-lg mb-1">Update Password</h2>
       <p class="text-[#6C82A3] text-sm">
         Ensure your account is using a long, <br />
         random password to stay secure.
       </p>
     </div>
-    <div class="flex gap-12 w-1/2 h-full">
-      <div class="h-96">
-        <form class="h-auto" action="">
+    <div class="flex gap-12 md:w-1/2 w-full h-full mx-4">
+      <div class="">
+        <form class="h-auto w-full" action="">
           <div class="flex flex-col w-full align-top mb-10">
             <label class="text-xs text-left mb-2 text-[#6C82A3]" for="password"
               >Current Password</label
             >
             <input
-              class="bg-[#F5F6FA] h-16 w-80 px-8 text-[#0A2E65] border rounded-md"
+              class="bg-[#F5F6FA] h-16 md:w-80 w-full px-8 text-[#0A2E65] border rounded-md"
               type="password"
               placeholder="********"
             />
@@ -101,8 +102,9 @@
       </div>
     </div>
   </div>
-  <div class="flex w-full items-start h-full border-b pb-8 mb-10">
-    <div class="flex flex-col mt-4 w-1/2">
+
+  <div class="md:flex w-full items-start h-full border-b pb-8 mb-10 mx-4 md:mx-0">
+    <div class="flex flex-col mt-4 md:w-1/2 mx-4 md:mx-0">
       <h2 class="text-[#0A2E65] font-bold text-lg mb-1">
         Two Factor Authentication
       </h2>
@@ -111,7 +113,7 @@
         using 2 Factor Authentication
       </p>
     </div>
-    <div class="flex flex-col w-1/2">
+    <div class="flex flex-col md:w-1/2 mx-4">
       <h3 class="text-[#6C82A3] text-sm mb-2">2FA</h3>
       <div class="flex gap-12 h-full rounded-lg border py-6 px-8">
         <div class="w-full flex flex-col">
@@ -133,8 +135,8 @@
     </div>
   </div>
 
-  <div class="flex w-full items-start h-full border-b pb-8 mb-10">
-    <div class="flex flex-col mt-4 w-1/2">
+  <div class="md:flex w-full items-start h-full border-b pb-8 mb-10 mx-4 md:mx-0">
+    <div class="flex flex-col mt-4 md:w-1/2 mx-4 md:mx-0">
       <h2 class="text-[#0A2E65] font-bold text-lg mb-1">
         Two Factor Authentication
       </h2>
@@ -143,7 +145,7 @@
         using 2 Factor Authentication
       </p>
     </div>
-    <div class="flex flex-col w-1/2">
+    <div class="flex flex-col md:w-1/2 mx-4">
       <h3 class="text-[#6C82A3] text-sm mb-2">2FA</h3>
       <div class="flex gap-12 h-full rounded-lg border py-6 px-8">
         <div class="w-full flex flex-col">
@@ -178,17 +180,18 @@
     </div>
   </div>
 
-  <div class="flex w-full items-start h-full border-b pb-8 mb-10">
-    <div class="flex flex-col mt-4 w-1/2">
+  <div class="md:flex w-full items-start h-full border-b pb-8 mb-10 mx-4 md:mx-0">
+    <div class="flex flex-col mt-4 md:w-1/2 mx-4 md:mx-0">
       <h2 class="text-[#0A2E65] font-bold text-lg mb-1">Browser Sessions</h2>
       <p class="text-[#6C82A3] text-sm">
         Manage and log out your active sessions on other <br />
         devices and browsers.
       </p>
     </div>
-    <div class="flex flex-col w-1/2">
+
+    <div class="md:flex flex-col md:w-1/2 mx-4">
       <h3 class="text-[#6C82A3] text-sm mb-2">Browsers and Devices</h3>
-      <div class="flex gap-12 h-full rounded-lg border py-6 px-8">
+      <div class="flex gap-12 h-full rounded-lg border  py-6 px-8">
         <div class="w-full flex flex-col">
          
           <p class="text-[#6C82A3] text-sm mb-5">
@@ -198,7 +201,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
           </p>
           <button
-            class="block p-1 rounded text-center w-4/5 h-12 justify-end bg-[#0098DA] font-bold text-white"
+            class="block p-1 rounded text-center md:w-4/5 h-12 justify-end bg-[#0098DA] font-bold text-white"
           >
             Logout other Browser sessions
           </button>
@@ -206,14 +209,15 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
       </div>
     </div>
   </div>
-  <div class="flex w-full items-start h-full border-b pb-8 mb-10">
-    <div class="flex flex-col mt-4 w-1/2">
+
+  <div class="md:flex w-full items-start h-full border-b pb-8 mb-10 mx-4 md:mx-0">
+    <div class="flex flex-col mt-4 md:w-1/2 mx-4 md:mx-0">
       <h2 class="text-[#0A2E65] font-bold text-lg mb-1">Delete Account</h2>
       <p class="text-[#6C82A3] text-sm">
         Permanently delete your account
       </p>
     </div>
-    <div class="flex flex-col w-1/2">
+    <div class="flex flex-col md:w-1/2 mx-4">
       <h3 class="text-[#6C82A3] text-sm mb-2">Delete</h3>
       <div class="flex gap-12 h-full rounded-lg border py-6 px-8">
         <div class="w-full flex flex-col">
@@ -225,7 +229,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
           </p>
           <button
-            class="block p-1 rounded text-center w-1/5 h-12 justify-end bg-[#ED3237] font-bold text-white"
+            class="block p-1 rounded text-center md:w-1/5 h-12 justify-end bg-[#ED3237] font-bold text-white"
           >
             Delete 
           </button>

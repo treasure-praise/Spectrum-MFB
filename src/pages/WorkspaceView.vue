@@ -2,7 +2,7 @@
   <div class="w-full bg-[#fafafa]">
     <h1>Approver/~</h1>
     <p>My Workspace</p>
-    <div class="flex gap-8  flex-wrap w-full">
+    <div class=" gap-8  flex-wrap w-full">
       <WorkspaceItems text="Delayed Bulk Payment" icon="delayed.svg" />
       <WorkspaceItems text="Transactions Approval" />
       <WorkspaceItems

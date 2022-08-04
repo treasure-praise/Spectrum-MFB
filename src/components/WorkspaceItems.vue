@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-1/5  text-center">
+  <div class=" flex-col w-4/5 md:w-1/5  text-center">
     <div class="w-32 h-32 bg-white mx-auto mb-6 border">
       <img class="" src="../assets/icons/{{icon}}" alt="" />
     </div>

@@ -12,8 +12,8 @@
     </div>
     <div class="mx-auto pt-9">
       <div class="flex w-full items-start border-b ">
-        <div class="flex flex-col mt-4  w-1/2">
-          <h2 class="text-[#0A2E65] font-bold text-lg mb-1">
+        <div class="flex flex-col mt-4 ml-4 md:ml-0 w-1/2">
+          <h2 class="text-[#0A2E65] font-bold md:text-lg mb-1">
             Beneficiaries Names
           </h2>
           <p class="text-[#6C82A3] text-sm">Surnname First</p>
@@ -26,7 +26,7 @@
                   Beneficiary Name
                 </label>
                 <input
-                  class="bg-[#F5F6FA] h-16 w-80 px-8 text-[#0A2E65] border rounded-md"
+                  class="bg-[#F5F6FA] md:h-16 md:w-80 px-2 md:px-8 text-[#0A2E65] border rounded-md"
                   type="text"
                   placeholder="Isifeh Kizito"
                 />
@@ -38,8 +38,8 @@
     </div>
     <div class="mx-auto pt-9">
       <div class="flex w-full items-start border-b ">
-        <div class="flex flex-col mt-4  w-1/2">
-          <h2 class="text-[#0A2E65] font-bold text-lg mb-1">
+        <div class="flex flex-col mt-4 ml-4 md:ml-0  w-1/2">
+          <h2 class="text-[#0A2E65] font-bold md:text-lg mb-1">
             Account Number
           </h2>
           <p class="text-[#6C82A3] text-sm">Beneficiary Account Number</p>
@@ -52,7 +52,7 @@
                   Beneficiary Account Number
                 </label>
                 <input
-                  class="bg-[#F5F6FA] h-16 w-80 px-8 text-[#0A2E65] border rounded-md"
+                  class="bg-[#F5F6FA] md:h-16 md:w-80 md:px-8 px-2 text-[#0A2E65] border rounded-md"
                   type="text"
                   placeholder="2020599742"
                 />
@@ -64,8 +64,8 @@
     </div>
     <div class="mx-auto pt-9">
       <div class="flex w-full items-start border-b ">
-        <div class="flex flex-col mt-4  w-1/2">
-          <h2 class="text-[#0A2E65] font-bold text-lg mb-1">
+        <div class="flex flex-col mt-4 ml-4 md:ml-0 w-1/2">
+          <h2 class="text-[#0A2E65] font-bold md:text-lg mb-1">
             Ammount
           </h2>
           <p class="text-[#6C82A3] text-sm">...</p>
@@ -78,7 +78,7 @@
                   Total Amount
                 </label>
                 <input
-                  class="bg-[#F5F6FA] h-16 w-80 px-8 text-[#0A2E65] border rounded-md"
+                  class="bg-[#F5F6FA] md:h-16 md:w-80 px-2 md:px-8 text-[#0A2E65] border rounded-md"
                   type="text"
                   placeholder="N200,000"
                 />
@@ -90,8 +90,8 @@
     </div>
     <div class="mx-auto pt-9">
       <div class="flex w-full items-start border-b ">
-        <div class="flex flex-col mt-4  w-1/2">
-          <h2 class="text-[#0A2E65] font-bold text-lg mb-1">
+        <div class="flex flex-col mt-4 ml-4 md:ml-0 w-1/2">
+          <h2 class="text-[#0A2E65] font-bold md:text-lg mb-1">
             Bank
           </h2>
           <p class="text-[#6C82A3] text-sm">Beneficiary Bank</p>
@@ -102,7 +102,7 @@
               <div class="flex flex-col w-full align-top mb-10">
                
                 <input
-                  class="bg-[#F5F6FA] h-16 w-80 px-8 text-[#0A2E65] border rounded-md"
+                  class="bg-[#F5F6FA] md:h-16 md:w-80 px-2 md:px-8 text-[#0A2E65] border rounded-md"
                   type="text"
                   placeholder="Select Beneficiary Bank"
                 />
@@ -114,8 +114,8 @@
     </div>
     <div class="mx-auto pt-9">
       <div class="flex w-full items-start ">
-        <div class="flex flex-col mt-4  w-1/2">
-          <h2 class="text-[#0A2E65] font-bold text-lg mb-1">
+        <div class="flex flex-col mt-4 ml-4 md:ml-0 w-1/2">
+          <h2 class="text-[#0A2E65] font-bold md:text-lg mb-1">
             Phone Number
           </h2>
           <p class="text-[#6C82A3] text-sm">...</p>
@@ -128,7 +128,7 @@
                   Beneficiary Phone Number
                 </label>
                 <input
-                  class="bg-[#F5F6FA] h-16 w-80 px-8 text-[#0A2E65] border rounded-md"
+                  class="bg-[#F5F6FA] md:h-16 md:w-80 px-2 md:px-8 text-[#0A2E65] border rounded-md"
                   type="text"
                   placeholder="0904785483291"
                 />
@@ -142,7 +142,8 @@
     </div>
     
     <!-- Table Component goes here -->
-     <table class="table-fixed w-full rounded-lg bg-white my-16">
+    <div class="relative break-words   block w-full overflow-x-auto">
+       <table class="table-fixed w-full rounded-lg bg-white my-16">
         <thead class="border-b m-12">
             <tr class="">
 
@@ -249,10 +250,12 @@
             </tr>
         </tbody>
     </table>
+    </div>
+    
 
      <div class="mx-auto pt-9">
       <div class="flex w-full items-start border-b ">
-        <div class="flex flex-col mt-4  w-1/2">
+        <div class="flex flex-col mt-4 ml-4 md:ml-0 w-1/2">
           <h2 class="text-[#0A2E65] font-bold text-lg mb-1">
             Remark
           </h2>
@@ -265,7 +268,7 @@
                <label class="text-xs text-left mb-2 text-[#6C82A3]" for="Name">
                   Enter Remark
                 </label>
-                <textarea class="bg-[#F5F6FA] h-16 w-80 px-8 text-[#0A2E65] border rounded-md"
+                <textarea class="bg-[#F5F6FA] md:h-16 md:w-80 w-44 px-2 md:px-8 text-[#0A2E65] border rounded-md"
                   type="text"
                   placeholder="Kindly approve, documentation
 is complete." name="" id="" cols="30" rows="10"></textarea>
@@ -275,7 +278,7 @@ is complete." name="" id="" cols="30" rows="10"></textarea>
         </div>
       </div>
     </div>
-    <StatusButton class="my-12 bg-[#0098DA]" text="Preview"/>
+    <StatusButton class="my-12 ml-4 bg-[#0098DA]" text="Preview"/>
   </div>
 </template>
 

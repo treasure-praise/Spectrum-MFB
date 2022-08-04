@@ -9,10 +9,11 @@ import Dashboard from './pages/Dashboard.vue';
 
 <template>
   <div class="flex ">
+    <!-- <RouterLink to="/Login">Login</RouterLink> -->
     <!-- <Login/> -->
     <Dashboard/>
-    <!-- <SideBar class="w-96 h-screen" /> -->
-  
+   
+  <!-- <RouterView/> -->
   </div>
   
 </template>
@@ -26,5 +27,6 @@ import Dashboard from './pages/Dashboard.vue';
   /* text-align: center; */
   color: #2c3e50;
   /* height: fit-content; */
+  background-color: #fafafa;
   }
 </style>
