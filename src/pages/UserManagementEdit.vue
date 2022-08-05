@@ -1,6 +1,9 @@
 <template>
-  <div class="w-full h-auto  flex-col mx-4">
-    <form action="" class="mx-4">
+  <div class="w-full h-auto  flex-col ">
+    <h1 class="mb-9 pt-12 text-[#3C3C3B] font-semibold text-2xl">
+      {{ BreadcrumbTitle }}/{{subTitle}}
+    </h1>
+    <form action="" class="">
       <div class="border-b md:flex w-full ">
         <div class="flex flex-col  md:w-1/2 ">
           <h2 class="mt-4 font-bold text-lg text-[#0A2E65]">Name</h2>
@@ -82,7 +85,8 @@
 export default {
     components:{
       
-    }
+    },
+    props:['BreadcrumbTitle','subTitle']
 };
 </script>
 

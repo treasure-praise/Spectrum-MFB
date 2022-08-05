@@ -1,5 +1,8 @@
 <template>
+<div>
+    <h1 class="mb-9 px-12 pt-12 text-[#3C3C3B] font-semibold text-2xl">{{BreadcrumbTitle}}/~</h1>
     <div class="flex mt-20 w-full gap-12 md:gap-24 p-4 md:p-12">
+        
         <img class="w-40 h-40 rounded-lg " src="../assets/courage 1.png" alt="">
         <div class="flex flex-col w-1/3">
             <h2 class="font-bold text-2xl md:text-3xl text-[#0A2E65] mb-2">Courage Coraigei</h2>
@@ -11,11 +14,13 @@
             </Button>
         </div>
     </div>
+</div>
+    
 </template>
 
 <script>
     export default {
-        
+        props:['BreadcrumbTitle']
     }
 </script>
 

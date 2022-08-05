@@ -6,7 +6,7 @@
         
         <div class="flex flex-col justify-around  ">
             <div class="flex flex-col mx-7">
-                <div class="hover:bg-[#0098DA] w-full hover:rounded mx-auto px-5 py-3 text-left flex">
+                <div class="bg-[#0098DA] rounded w-full hover:rounded mx-auto px-5 py-3 text-left flex">
                     <img src="../assets/icons/element-4light.svg" alt="">
                 <h2 class="px-5 text-base">Dashboard</h2>
                 </div>

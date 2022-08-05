@@ -1,7 +1,7 @@
 <template>
-  <form class="mr-20" action="">
+  <form class="" action="">
     <input
-      class="rounded-lg w-80 py-3 px-5 bg-white text-[#ADA7A7]"
+      class="rounded-lg border-none md:w-80 w-full py-3 px-5 bg-white text-[#ADA7A7]"
       type="search"
       name=""
       id=""

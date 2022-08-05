@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-end mt-10 mr-12 items-center text-right mb-11">
+    <div class="hidden md:flex justify-end mt-10 mr-12 items-center text-right ">
        <SearchBar/>
        <div class="flex items-center gap-4">
         <p>Courage Coragei</p>

@@ -19,7 +19,6 @@
 </template>
 
 <script setup>
-import StatusButton from "../components/StatusButton.vue";
 </script>
 
 <style lang="scss" scoped></style>

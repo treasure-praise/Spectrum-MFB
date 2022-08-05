@@ -10,8 +10,8 @@
     
     
  
-
-     <div class="py-14 px-4 md:flex mx-auto">
+<div>
+<div class="py-14 px-4 md:flex mx-auto">
         <div class="flex flex-col w-full mb-8 md:mb-0 align-top">
             <label class="text-xs text-left mb-2 text-[#6C82A3]" for="Token">
               Token
@@ -31,6 +31,8 @@
               placeholder="Approves" name="" id="" cols="30" rows="20"></textarea>
         </div>
     </div>
+</div>
+     
     <div>
         <h2 class="text-[#6C82A3] text-2xl px-4 pb-8 border-b">Audit Trails</h2>
         <div class="mt-8 md:flex px-4 gap-y-8 pb-12 flex-wrap">
@@ -76,11 +78,11 @@
             </div>
         </div>
         <div class="flex px-4 gap-4">
-            <StatusButton text="Reject" color="ED3237"/>
+            <StatusButton text="Pending" color="ED3237"/>
             <StatusButton text="Approve" color="ED3237"/>
         </div>
         
-    </div>
+    </div> 
   </div>
 </template>
 

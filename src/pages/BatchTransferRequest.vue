@@ -11,22 +11,22 @@
       </div>
     </div>
     <div class="mx-auto pt-9">
-      <div class="flex w-full items-start border-b ">
-        <div class="flex flex-col mt-4 ml-4 md:ml-0 w-1/2">
+      <div class="md:flex w-full items-start border-b ">
+        <div class="flex flex-col mt-4 ml-4 md:ml-0 md:w-1/2 w-full">
           <h2 class="text-[#0A2E65] font-bold md:text-lg mb-1">
             Beneficiaries Names
           </h2>
-          <p class="text-[#6C82A3] text-sm">Surnname First</p>
+          <p class="text-[#6C82A3] text-sm hidden md:block">Surnname First</p>
         </div>
-        <div class="flex gap-12 h-fit w-1/2">
+        <div class="flex gap-12 h-fit md:w-1/2 w-full">
           <div class="">
             <form class="h-auto" action="">
               <div class="flex flex-col w-full align-top mb-10">
-                <label class="text-xs text-left mb-2 text-[#6C82A3]" for="Name">
+                <label class="text-xs text-left mb-2 text-[#6C82A3] hidden md:block" for="Name">
                   Beneficiary Name
                 </label>
                 <input
-                  class="bg-[#F5F6FA] md:h-16 md:w-80 px-2 md:px-8 text-[#0A2E65] border rounded-md"
+                  class="bg-[#F5F6FA] md:h-16 md:w-80 w-full px-2 md:px-8 text-[#0A2E65] border rounded-md"
                   type="text"
                   placeholder="Isifeh Kizito"
                 />
@@ -37,18 +37,18 @@
       </div>
     </div>
     <div class="mx-auto pt-9">
-      <div class="flex w-full items-start border-b ">
+      <div class="md:flex w-full items-start border-b ">
         <div class="flex flex-col mt-4 ml-4 md:ml-0  w-1/2">
           <h2 class="text-[#0A2E65] font-bold md:text-lg mb-1">
             Account Number
           </h2>
-          <p class="text-[#6C82A3] text-sm">Beneficiary Account Number</p>
+          <p class="text-[#6C82A3] text-sm hidden md:block">Beneficiary Account Number</p>
         </div>
         <div class="flex gap-12 h-fit w-1/2">
           <div class="">
             <form class="h-auto" action="">
               <div class="flex flex-col w-full align-top mb-10">
-                <label class="text-xs text-left mb-2 text-[#6C82A3]" for="Name">
+                <label class="text-xs text-left mb-2 text-[#6C82A3] hidden md:block" for="Name">
                   Beneficiary Account Number
                 </label>
                 <input
@@ -63,18 +63,18 @@
       </div>
     </div>
     <div class="mx-auto pt-9">
-      <div class="flex w-full items-start border-b ">
+      <div class="md:flex w-full items-start border-b ">
         <div class="flex flex-col mt-4 ml-4 md:ml-0 w-1/2">
           <h2 class="text-[#0A2E65] font-bold md:text-lg mb-1">
             Ammount
           </h2>
-          <p class="text-[#6C82A3] text-sm">...</p>
+          <p class="text-[#6C82A3] text-sm hidden md:block">...</p>
         </div>
         <div class="flex gap-12 h-fit w-1/2">
           <div class="">
             <form class="h-auto" action="">
               <div class="flex flex-col w-full align-top mb-10">
-                <label class="text-xs text-left mb-2 text-[#6C82A3]" for="Name">
+                <label class="text-xs text-left mb-2 text-[#6C82A3] hidden md:block" for="Name">
                   Total Amount
                 </label>
                 <input
@@ -89,12 +89,12 @@
       </div>
     </div>
     <div class="mx-auto pt-9">
-      <div class="flex w-full items-start border-b ">
+      <div class="md:flex w-full items-start border-b ">
         <div class="flex flex-col mt-4 ml-4 md:ml-0 w-1/2">
           <h2 class="text-[#0A2E65] font-bold md:text-lg mb-1">
             Bank
           </h2>
-          <p class="text-[#6C82A3] text-sm">Beneficiary Bank</p>
+          <p class="text-[#6C82A3] text-sm hidden md:block">Beneficiary Bank</p>
         </div>
         <div class="flex gap-12 h-fit w-1/2">
           <div class="">
@@ -113,18 +113,18 @@
       </div>
     </div>
     <div class="mx-auto pt-9">
-      <div class="flex w-full items-start ">
+      <div class="md:flex w-full items-start ">
         <div class="flex flex-col mt-4 ml-4 md:ml-0 w-1/2">
           <h2 class="text-[#0A2E65] font-bold md:text-lg mb-1">
             Phone Number
           </h2>
-          <p class="text-[#6C82A3] text-sm">...</p>
+          <p class="text-[#6C82A3] text-sm hidden md:block">...</p>
         </div>
         <div class="flex gap-12 h-fit w-1/2">
           <div class="">
             <form class="h-auto" action="">
               <div class="flex flex-col w-full align-top mb-10">
-               <label class="text-xs text-left mb-2 text-[#6C82A3]" for="Name">
+               <label class="text-xs text-left mb-2 text-[#6C82A3] hidden md:block" for="Name">
                   Beneficiary Phone Number
                 </label>
                 <input
@@ -254,21 +254,21 @@
     
 
      <div class="mx-auto pt-9">
-      <div class="flex w-full items-start border-b ">
-        <div class="flex flex-col mt-4 ml-4 md:ml-0 w-1/2">
+      <div class="md:flex w-full items-start border-b ">
+        <div class="flex flex-col mt-4 ml-4 md:ml-0 md:w-1/2">
           <h2 class="text-[#0A2E65] font-bold text-lg mb-1">
             Remark
           </h2>
-          <p class="text-[#6C82A3] text-sm">...</p>
+          <p class="text-[#6C82A3] text-sm hidden md:block">...</p>
         </div>
-        <div class="flex gap-12 h-fit w-1/2">
+        <div class="flex md:gap-12 h-fit md:w-1/2 ">
           <div class="">
             <form class="h-auto" action="">
               <div class="flex flex-col w-full align-top mb-10">
-               <label class="text-xs text-left mb-2 text-[#6C82A3]" for="Name">
+               <label class="text-xs text-left mb-2 text-[#6C82A3] hidden md:block" for="Name">
                   Enter Remark
                 </label>
-                <textarea class="bg-[#F5F6FA] md:h-16 md:w-80 w-44 px-2 md:px-8 text-[#0A2E65] border rounded-md"
+                <textarea class="bg-[#F5F6FA] md:h-16 md:w-80 w-80 px-2 md:px-8 text-[#0A2E65] border rounded-md"
                   type="text"
                   placeholder="Kindly approve, documentation
 is complete." name="" id="" cols="30" rows="10"></textarea>

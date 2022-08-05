@@ -1,9 +1,12 @@
 <template>
   <div class="w-full bg-[#fafafa]">
-    <h1>Approver/~</h1>
-    <p>My Workspace</p>
-    <div class=" gap-8  flex-wrap w-full">
-      <WorkspaceItems text="Delayed Bulk Payment" icon="delayed.svg" />
+    <h1 class="mb-9 pt-12 text-[#3C3C3B] font-semibold text-2xl">
+      {{ BreadcrumbTitle }}/{{subTitle}}
+    </h1>
+    <h2 class="mb-9 pt-12 text-[#3C3C3B] font-semibold text-2xl">My Workspace</h2>
+    <div class=" md:gap-8 flex flex-wrap md:w-full">
+      <WorkspaceItems text="Delayed Bulk Payment" imgUrl="../assets/icons/delayed.svg" />
+
       <WorkspaceItems text="Transactions Approval" />
       <WorkspaceItems
         text="Pending Approvals (Non-transaction)"
@@ -35,8 +38,17 @@
 
 <script>
 import WorkspaceItems from "../components/WorkspaceItems.vue";
+
+const url ="./assets/icons/delayed.svg"
+const urls = [
+  {
+    id:1,
+    url:"../assets/icons/delayed.svg"
+  }
+]
 export default {
   components: { WorkspaceItems },
+  props:['BreadcrumbTitle', 'subTitle']
 };
 </script>
 

@@ -34,8 +34,20 @@
         </form>
       </div>
     </main>
-    <div class="w-1/2 bg-[#0098DA]">
+    <!-- <div class="w-1/2 bg-[#0098DA]">
       <img class="h-auto mx-auto" src="../assets/Transfer@4x 1.svg" alt="hero-img" />
+    </div>
+    <div class="w-1/2 bg-white">
+      <img class="h-auto mx-auto" src="../assets/ATM machine 1 (1).gif" alt="hero-img" />
+    </div>
+    <div class="w-1/2 bg-white">
+      <img class="h-auto mx-auto" src="../assets/Growth 1.gif" alt="hero-img" />
+    </div> -->
+    <div class="w-1/2 items-center bg-white">
+      <img class="h-auto mx-auto" src="../assets/Moneymaking 1.gif"  
+      alt="hero-img" />
+      <img class="h-auto mx-auto" src="../assets/Growth 1.gif" alt="hero-img" />
+      <img class="h-auto mx-auto" src="../assets/ATM machine 1 (1).gif" alt="hero-img" />
     </div>
   </div>
 </template>
